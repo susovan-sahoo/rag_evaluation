@@ -1,7 +1,4 @@
 # rag_evaluation
-<<<<<<< HEAD
-RAG evaluations using DeepEval
-=======
 
 Evaluation harness for a transcript-based RAG retriever, with optional cross-encoder reranking, using [DeepEval](https://github.com/confident-ai/deepeval) metrics.
 
@@ -80,4 +77,3 @@ To add a case, append an entry with those same four keys — the eval scripts re
 ## Working with AI coding agents
 
 See [AGENTS.md](AGENTS.md) for architecture notes and conventions aimed at AI coding assistants working in this repo.
->>>>>>> 328e426 (intial commit with retriever component evaluation)
