@@ -1,6 +1,6 @@
-# rag_evaluation
+# RAG evaluation using DeepEval
 
-Evaluation harness for a transcript-based RAG retriever, with optional cross-encoder reranking, using [DeepEval](https://github.com/confident-ai/deepeval) metrics.
+Evaluation harness for a transcript-based RAG retriever using [DeepEval](https://github.com/confident-ai/deepeval) metrics.
 
 The retrieval corpus is a set of `.vtt` transcripts (in `data/`) from an LLM evals course. The project builds a Chroma vector store from those transcripts and scores two retrieval strategies — a plain vector-similarity retriever and a reranked retriever — against a hand-authored golden dataset.
 
